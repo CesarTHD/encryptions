@@ -4,10 +4,12 @@ import Albam from "./components/Albam";
 import Atbah from "./components/Atbah";
 import Cesar from "./components/Cesar";
 import Atbash from "./components/Atbash";
+import Image from "next/image";
+import picture from "@/profile-draw.jpg"
 
 export default function Home() {
   const [option, setOption] = useState(0);
-  
+
 
 
   return (
@@ -53,7 +55,12 @@ export default function Home() {
             <Cesar />
           )}
         </div>
+
       </div>
+      <a href="https://www.linkedin.com/in/cesar-tallys-henrique-duarte-08263a197/" target="_blank" className="flex items-center gap-2 absolute bottom-8 right-8 hover:scale-110">
+          <p className="italic">César Tallys</p>
+          <Image className="rounded-full" width={30} height={30} src={picture} alt="Picture César THD" />
+      </a>
     </div>
   );
 }

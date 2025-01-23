@@ -11,24 +11,18 @@ export default function Atbash() {
     const arrayLetters: Array<string> = text.split("");
     const msgEncrypt = [];
 
-    console.log("a".charCodeAt(0));
-    console.log("z".charCodeAt(0));
-
     let i = 0;
     while (i < arrayLetters.length) {
       const numLetter = arrayLetters[i].charCodeAt(0);
       if (numLetter <= 109 && numLetter >= 97) {
-        console.log("first", (122 - (numLetter - 97)));
         msgEncrypt.push(
           String.fromCharCode(122 - (numLetter - 97))
         );
       } else if (numLetter <= 122) {
-        console.log("second", ((122 - numLetter) + 97));
         msgEncrypt.push(
           String.fromCharCode((122 - numLetter) + 97)
         );
       } else { 
-        console.log("thirst", (arrayLetters[i]));
         msgEncrypt.push(arrayLetters[i]);
       }
       i++;
