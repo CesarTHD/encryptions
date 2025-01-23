@@ -1,7 +1,6 @@
 
 "use client";
 import { useState } from "react";
-import { TrashIcon } from "@heroicons/react/24/solid";
 import { LockClosedIcon, LockOpenIcon } from "@heroicons/react/24/solid";
 
 export default function Albam() {
@@ -10,11 +9,11 @@ export default function Albam() {
 
   const encrypt = () => {
     const arrayLetters: Array<string> = text.split("");
-    let msgEncrypt = [];
+    const msgEncrypt = [];
 
     let i = 0;
     while (i < arrayLetters.length) {
-      let numLetter = arrayLetters[i].charCodeAt(0);
+      const numLetter = arrayLetters[i].charCodeAt(0);
       if(numLetter >= 97 && numLetter <= 122) {
         if (numLetter <= 109) {
           msgEncrypt.push(

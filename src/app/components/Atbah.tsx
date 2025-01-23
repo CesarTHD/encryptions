@@ -23,7 +23,7 @@ export default function Atbah() {
   const encrypt = (type: string) => {
     if (criterion.length > 0) {
       const arrayLetters: Array<string> = text.split("");
-      let msgEncrypt = [];
+      const msgEncrypt = [];
       const numCriteria = criterion.length;
 
       let i = 0;

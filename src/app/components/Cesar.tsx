@@ -1,7 +1,6 @@
 
 "use client";
 import { useState } from "react";
-import { TrashIcon } from "@heroicons/react/24/solid";
 import { LockClosedIcon, LockOpenIcon } from "@heroicons/react/24/solid";
 
 export default function Cesar() {
@@ -11,7 +10,7 @@ export default function Cesar() {
 
   const encrypt = (type: string) => {
     const arrayLetters: Array<string> = text.split("");
-    let msgEncrypt = [];
+    const msgEncrypt = [];
 
     let i = 0;
     while (i < arrayLetters.length) {
