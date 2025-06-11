@@ -1,7 +1,6 @@
 "use client";
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Head from 'next/head';
 import Image from 'next/image';
 import foto1 from '../../../public/casal/cesar-e-carol/foto1.jpg';
 import foto2 from '../../../public/casal/cesar-e-carol/foto2.jpg';
