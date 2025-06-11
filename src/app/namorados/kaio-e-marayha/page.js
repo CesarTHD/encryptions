@@ -14,7 +14,13 @@ export default function Home() {
         <h1 className="text-2xl font-bold text-rose-700 my-4 font-cursive">💖 Kaio & Marayha 💖</h1>
 
         <div className="w-full max-w-md rounded-xl overflow-hidden shadow-lg my-6">
-          <Carousel showThumbs={false} autoPlay infiniteLoop>
+          <Carousel
+            showThumbs={false}
+            autoPlay
+            infiniteLoop
+            swipeable={false}
+            showStatus={false}
+            stopOnHover={false}>
             <div><Image src={foto1} alt="foto 1" layout="responsive" /></div>
           </Carousel>
         </div>
