@@ -2,15 +2,15 @@
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Image from 'next/image';
-import foto1 from '../../../public/casal/cesar-e-carol/foto1.jpg';
-import foto2 from '../../../public/casal/cesar-e-carol/foto2.jpg';
-import foto3 from '../../../public/casal/cesar-e-carol/foto3.jpg';
+import foto1 from '@/casal/cesar-e-carol/foto1.jpg';
+import foto2 from '@/casal/cesar-e-carol/foto2.jpg';
+import foto3 from '@/casal/cesar-e-carol/foto3.jpg';
 
 export default function Home() {
   return (
     <>
       <main className="min-h-screen bg-rose-100 flex flex-col items-center justify-center p-4 text-center">
-        <h1 className="text-4xl font-bold text-rose-700 my-4 font-cursive">💖 César & Carolline 💖</h1>
+        <h1 className="text-2xl font-bold text-rose-700 my-4 font-cursive">💖 César & Carolline 💖</h1>
 
         <div className="w-full max-w-md rounded-xl overflow-hidden shadow-lg my-6">
           <Carousel showThumbs={false} autoPlay infiniteLoop>
