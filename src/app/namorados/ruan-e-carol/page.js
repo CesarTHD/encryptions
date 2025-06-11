@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <main className="min-h-screen bg-rose-100 flex flex-col items-center justify-center p-4 text-center">
-        <h1 className="text-2xl font-bold text-rose-700 my-4 font-cursive">💖 Ruan & Carol 💖</h1>
+        <h1 className="text-2xl font-bold text-rose-700 my-4 font-cursive">💖 Ruan & Carolina 💖</h1>
 
         <div className="w-full max-w-md rounded-xl overflow-hidden shadow-lg my-6 ">
           <Carousel
