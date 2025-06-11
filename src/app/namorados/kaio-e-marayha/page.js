@@ -8,6 +8,9 @@ export default function Home() {
   return (
     <>
       <main className="min-h-screen bg-rose-100 flex flex-col items-center justify-center p-4 text-center">
+        <audio autoPlay loop controls>
+          <source src='/entregadordeflor.mp3' type="audio/mpeg" />
+        </audio>
         <h1 className="text-2xl font-bold text-rose-700 my-4 font-cursive">💖 Kaio & Marayha 💖</h1>
 
         <div className="w-full max-w-md rounded-xl overflow-hidden shadow-lg my-6">
@@ -23,7 +26,7 @@ export default function Home() {
           Amanhã é o nosso primeiro Dia dos Namorados juntos, e eu só quero te agradecer por estar comigo, por ser essa mulher incrível que transforma qualquer dia comum em algo especial. Que esse seja o primeiro de muitos, sempre com amor, respeito e cumplicidade.
         </p>
 
-        <p className="max-w-2xl text-lg text-gray-700 leading-relaxed px-4 mt-2">  
+        <p className="max-w-2xl text-lg text-gray-700 leading-relaxed px-4 mt-2">
           Te amo, Marayha. 💖
         </p>
 
