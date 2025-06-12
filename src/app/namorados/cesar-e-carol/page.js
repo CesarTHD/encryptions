@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <main className="min-h-screen bg-rose-100 flex flex-col items-center justify-center p-4 text-center">
         <audio autoPlay loop controls>
-          <source src='/music.mp3' type="audio/mpeg" />
+          <source src='/andressa.mp3' type="audio/mpeg" />
         </audio>
         <h1 className="text-2xl font-bold text-rose-700 my-4 font-cursive">💖 César & Carolline 💖</h1>
 
