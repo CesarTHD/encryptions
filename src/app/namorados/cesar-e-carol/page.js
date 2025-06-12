@@ -5,6 +5,15 @@ import Image from 'next/image';
 import foto1 from '@/casal/cesar-e-carol/foto1.jpg';
 import foto2 from '@/casal/cesar-e-carol/foto2.jpg';
 import foto3 from '@/casal/cesar-e-carol/foto3.jpg';
+import foto4 from '@/casal/cesar-e-carol/foto4.jpg';
+import foto5 from '@/casal/cesar-e-carol/foto5.jpg';
+import foto6 from '@/casal/cesar-e-carol/foto6.jpg';
+import foto7 from '@/casal/cesar-e-carol/foto7.jpg';
+import foto8 from '@/casal/cesar-e-carol/foto8.jpg';
+import foto9 from '@/casal/cesar-e-carol/foto9.jpg';
+import foto10 from '@/casal/cesar-e-carol/foto10.jpg';
+import foto11 from '@/casal/cesar-e-carol/foto11.jpg';
+import foto12 from '@/casal/cesar-e-carol/foto12.jpg';
 
 export default function Home() {
   return (
@@ -23,26 +32,44 @@ export default function Home() {
             swipeable={false}
             showStatus={false}
             stopOnHover={false}>
-              <Image src={foto1} alt="foto 1" layout="responsive" />
-              <Image src={foto2} alt="foto 2" layout="responsive" />
-              <Image src={foto3} alt="foto 3" layout="responsive" />
+              {[foto1, foto2, foto3, foto4, foto5, foto6, foto7, foto8, foto9, foto10, foto11, foto12].map((foto, i) => (
+              <div key={i} className="relative w-full h-[500px]">
+                <Image
+                  src={foto}
+                  alt={`foto ${i + 1}`}
+                  fill
+                  style={{ objectFit: 'contain' }}
+                  sizes="100%"
+                />
+              </div>
+            ))}
           </Carousel>
         </div>
 
         <p className="max-w-2xl text-lg text-gray-700 leading-relaxed px-4">
-          Desde o dia 15 de outubro, minha vida ganhou um brilho diferente: o brilho do seu sorriso, do seu carinho e da paz que só você sabe me dar. Não parece que faz tanto tempo, mas em cada momento ao seu lado, eu sinto que encontrei algo raro: alguém que me entende, me apoia e me faz querer ser melhor a cada dia.
+          Todas essas fotos me fazem lembrar o quão especial você é pra mim.
         </p>
         <p className="max-w-2xl text-lg text-gray-700 leading-relaxed px-4">
-          Amanhã é o nosso primeiro Dia dos Namorados juntos, e eu só quero te agradecer por estar comigo, por ser essa mulher incrível que transforma qualquer dia comum em algo especial. Que esse seja o primeiro de muitos, sempre com amor, respeito e cumplicidade.
+          Momentos de cumplicidade, leveza e muito amor.
         </p>
-
-        <p className="max-w-2xl text-lg text-gray-700 leading-relaxed px-4 mt-2">
-          Te amo, Marayha. 💖
+        <p className="max-w-2xl text-lg text-gray-700 leading-relaxed px-4">
+          Desejo que possamos sempre completar um ao outro com nossas indiferenças, e que possamos sempre encontrar abrigo um no outro.
         </p>
-
+        <p className="max-w-2xl text-lg text-gray-700 leading-relaxed px-4">
+          Que sempre que um dos dois se revoltar o outro possa, como diz a música, voltar com a paz.
+        </p>
+        <p className="max-w-2xl text-lg text-gray-700 leading-relaxed px-4">
+          A paixão pode ir e vir, mas o amor estará sempre presente. Devemos ter sempre a empatia e a paciência com nós mesmos.
+        </p>
+        <p className="max-w-2xl text-lg text-gray-700 leading-relaxed px-4">
+          Nem tudo são flores, mas vamos sempre regar o nosso jardim.
+        </p>
+        <p className="max-w-2xl text-lg text-gray-700 leading-relaxed px-4">
+          Te Amo, minha companheiro! 💖💖💖
+        </p>
         <p className="max-w-2xl text-lg text-gray-700 leading-relaxed px-4 mt-2 mb-4">
-          Com todo meu carinho,
-          Kaio Victor 💌
+          Com muito carinho,
+          César Tallys 💌
         </p>
       </main>
     </>
