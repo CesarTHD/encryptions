@@ -37,20 +37,26 @@ export default function Home() {
         </div>
 
         <p className="max-w-2xl text-lg text-gray-700 leading-relaxed px-4">
-          Você é a resposta das minhas orações mais linda! Sonhei e o senhor me presenteou com muito além. 
-          Obrigada, por ser o pai maravilhoso que você é. 
-          Obrigada por seus sacrifícios, por seu apoio constante e por seu amor sem fim. 
-          Nosso filho é abençoado por ter você na vida dele, 
-          e eu sou abençoada por ter você como parceiro nesta incrível jornada de criar nosso Anthony, 
-          obrigada por ser abrigo, aconchego, sempre trazendo leveza e alegria. 
-          Por ser meu grande amigo é impulsionador. 
-          Sempre me faltarão palavras para expressar todo o sentimento que sinto sobre você e sobre nós. 
-          Eu te amo vida! Sei que passaremos uma vida inteira lado a lado vivendo o melhor de Cristo. 💖
+          Feliz dia dos namorados meu amor, são 12 anos ao seu lado,
+          e aqui quero expressar um pouco do meu sentimento há a mulher
+          mais linda e companheira que já conheci em toda a minha vida.
         </p>
 
-        <p className="max-w-2xl text-lg text-gray-700 leading-relaxed px-4 mt-2 mb-4">
+        <p className="max-w-2xl text-lg text-gray-700 leading-relaxed px-4">
+          Diante de tudo só tenho a agradecer a Deus 
+          por tudo que já fez e faz por nós e nossa família, e saiba que nós a amamos muito.
+        </p>
+
+        <p className="max-w-2xl text-lg text-gray-700 leading-relaxed px-4">
+          Te amo 💖
+        </p>
+
+        <p className="max-w-2xl text-lg text-gray-700 leading-relaxed px-4 mt-4">
           Com todo meu carinho,
-          Carol 💌
+        </p>
+
+        <p className="max-w-2xl text-lg text-gray-700 leading-relaxed px-4 mb-4">
+          Mateus Feitosa 💌
         </p>
       </main>
     </>
