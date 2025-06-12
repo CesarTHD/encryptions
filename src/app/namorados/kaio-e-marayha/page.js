@@ -29,7 +29,7 @@ export default function Home() {
           Desde o dia 15 de outubro, minha vida ganhou um brilho diferente: o brilho do seu sorriso, do seu carinho e da paz que só você sabe me dar. Não parece que faz tanto tempo, mas em cada momento ao seu lado, eu sinto que encontrei algo raro: alguém que me entende, me apoia e me faz querer ser melhor a cada dia.
         </p>
         <p className="max-w-2xl text-lg text-gray-700 leading-relaxed px-4">
-          Amanhã é o nosso primeiro Dia dos Namorados juntos, e eu só quero te agradecer por estar comigo, por ser essa mulher incrível que transforma qualquer dia comum em algo especial. Que esse seja o primeiro de muitos, sempre com amor, respeito e cumplicidade.
+          Hoje é o nosso primeiro Dia dos Namorados juntos, e eu só quero te agradecer por estar comigo, por ser essa mulher incrível que transforma qualquer dia comum em algo especial. Que esse seja o primeiro de muitos, sempre com amor, respeito e cumplicidade.
         </p>
 
         <p className="max-w-2xl text-lg text-gray-700 leading-relaxed px-4 mt-2">
