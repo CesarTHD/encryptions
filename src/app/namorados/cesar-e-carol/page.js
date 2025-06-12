@@ -65,7 +65,13 @@ export default function Home() {
           Nem tudo são flores, mas vamos sempre regar o nosso jardim.
         </p>
         <p className="max-w-2xl text-lg text-gray-700 leading-relaxed px-4">
-          Te Amo, minha companheiro! 💖💖💖
+          Te Amo, minha companheira!
+        </p>
+        <p className="max-w-2xl text-lg text-gray-700 leading-relaxed px-4">
+          💖💖💖
+        </p>
+        <p className="max-w-2xl text-lg text-gray-700 leading-relaxed px-4">
+          Feliz dia dos namorados
         </p>
         <p className="max-w-2xl text-lg text-gray-700 leading-relaxed px-4 mt-2 mb-4">
           Com muito carinho,
