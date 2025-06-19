@@ -55,10 +55,10 @@ export default function Home() {
         </div>
 
         <p className="max-w-2xl text-lg text-gray-700 leading-relaxed px-4">
-          "O amor é paciente, bondoso, não inveja, não se vangloria, não se orgulha, não maltrata, não busca seus interesses, não se irrita facilmente, não guarada rancor, não se alegra com a injustiça, mas se alegra com a verdade.
+          {'"'}O amor é paciente, bondoso, não inveja, não se vangloria, não se orgulha, não maltrata, não busca seus interesses, não se irrita facilmente, não guarada rancor, não se alegra com a injustiça, mas se alegra com a verdade.
         </p>
         <p className="max-w-2xl text-lg text-gray-700 leading-relaxed px-4">
-          O amor tudo sofre, tudo crê, tudo espera, tudo suporta."
+          O amor tudo sofre, tudo crê, tudo espera, tudo suporta.{'"'}
         </p>
         <p className="max-w-2xl text-lg text-gray-700 leading-relaxed px-4">
           1 Coríntios 13:4-7 ✨
